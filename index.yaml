@@ -1,0 +1,68 @@
+apiVersion: v1
+entries:
+  app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-25T16:46:14.521006856Z"
+    description: A Helm chart for Kubernetes
+    digest: bc5311587330086e00e3aa5df2f1b49480a81a012de685c5dd79a183d79407c5
+    name: app
+    type: application
+    urls:
+    - https://github.com/frealmyr/helm-charts/releases/download/app-1.0.0/app-1.0.0.tgz
+    version: 1.0.0
+  argo:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-25T16:46:14.739481868Z"
+    description: Create argo applications under projects
+    digest: 719ccbee7e025d4957e3127370267b7dcbb7f2157fbf7f875c22e15df563b57c
+    name: argo
+    type: application
+    urls:
+    - https://github.com/frealmyr/helm-charts/releases/download/argo-1.0.0/argo-1.0.0.tgz
+    version: 1.0.0
+  argo-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-12-25T16:46:14.956236771Z"
+    description: Create apps-of-apps under the appProject apps-of-app
+    digest: c3dec26bbcea32e38f7cc3d1014dd1b9912051427727ae3b6673eaa02b3e3660
+    name: argo-app
+    type: application
+    urls:
+    - https://github.com/frealmyr/helm-charts/releases/download/argo-app-1.0.0/argo-app-1.0.0.tgz
+    version: 1.0.0
+  external-services:
+  - apiVersion: v2
+    created: "2023-12-25T16:46:15.182469353Z"
+    description: For hooking up external services from other devices on the network
+      to Traefik
+    digest: ef46663519f1fdc64ab2f038029c16bc45d1929b983c2a2ae27d6efd028b901e
+    name: external-services
+    type: application
+    urls:
+    - https://github.com/frealmyr/helm-charts/releases/download/external-services-1.0.0/external-services-1.0.0.tgz
+    version: 1.0.0
+  raw:
+  - apiVersion: v2
+    created: "2023-12-25T16:46:15.377320066Z"
+    description: A place for all the Kubernetes resources which don't already have
+      a home
+    digest: 6fe8384f649af4adba8842e794009ff5b98ed5dad714e39f75cdf7fef8fa5682
+    home: https://github.com/itscontained/charts/blob/master/itscontained/raw
+    keywords:
+    - raw
+    - incubator
+    - incubator-raw
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nick@cajun.pro
+      name: DirtyCajunRice
+    name: raw
+    sources:
+    - https://github.com/helm/charts/blob/master/incubator/raw
+    urls:
+    - https://github.com/frealmyr/helm-charts/releases/download/raw-v0.2.5/raw-v0.2.5.tgz
+    version: v0.2.5
+generated: "2023-12-25T16:46:15.377331918Z"
